@@ -1,0 +1,189 @@
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  color: #fdcc52;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+.nav-bar {
+  display: flex;
+  justify-content:space-between;
+  padding: 50px;
+
+
+}
+.logo-text {
+  
+}
+.page-top {
+  background-color: rgb(3, 75, 117);
+}
+.nav-bar2 a{
+  margin: 10px;
+
+}
+
+.screen img {
+  width: 400px;
+  padding: 30px;
+  
+
+}
+#body-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-text {
+  max-width: 500px;
+}
+.body-text h1 {
+  color: whitesmoke;
+
+}
+
+#body-1 {
+  margin-top: 0;
+  background: url(/03-ux-bootstrap-module/03-html-css-review-lesson/activities/03-Stu-Travel-California/starter/images/bg-img.png);
+}
+#download {
+  background-color:gold;
+ 
+  
+}
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.section-heading {
+  text-align: center;
+
+}
+.download-para {
+  text-align: center;
+}
+.img-001 {
+  width: 200px;
+}
+
+.testimonials-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test-1 {
+  font-weight: 700;
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonial-item h5{
+  margin: 10px;
+ text-align: center;
+ font-family: Catamaran;
+ font-weight: 600;
+}
+.testimonial-item p {
+  text-align: center;
+}
+
+.testimonial-01 , .testmonial-02, .testimonial-03 {
+  width: 300px;
+  border-radius: 300px;
+}
+
+ .foot-1 {
+  background: url(/03-ux-bootstrap-module/03-html-css-review-lesson/activities/03-Stu-Travel-California/starter/images/SF.png);
+   background-repeat: no-repeat;
+   height: 100%;
+   
+ }
+.signup-section .container {
+  align-content: center;
+
+}
+.form-sub {
+  width: 600px;
+  margin: 2000px;
+  display: block;
+}
+.Subscribe-text{
+  margin: 50px;
+  text-align: center;
+  color:rgb(4, 66, 249);
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.form-section {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  border-radius: 40px;
+  margin: 50px;
+}
+.form-box {
+  width: 500px;
+  border-radius: 50px;
+  border-color: aliceblue;
+}
+.form-button {
+  background-color: rgb(83, 83, 208);
+  border-radius: 50px;
+  color: white;
+  border-color: rgb(20, 20, 231);
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+}
+
