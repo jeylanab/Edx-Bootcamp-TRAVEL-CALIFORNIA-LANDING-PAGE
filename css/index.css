@@ -5,6 +5,8 @@ body {
   height: 100%;
 }
 
+/* css code for body of the body*/
+
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
@@ -93,7 +95,8 @@ section h2 {
 
 #body-1 {
   margin-top: 0;
-  background: url(/03-ux-bootstrap-module/03-html-css-review-lesson/activities/03-Stu-Travel-California/starter/images/bg-img.png);
+  background: url(/images/bg-img.png);
+  background-position: center;
 }
 #download {
   background-color:gold;
@@ -144,7 +147,9 @@ section h2 {
 }
 
  .foot-1 {
-  background: url(/03-ux-bootstrap-module/03-html-css-review-lesson/activities/03-Stu-Travel-California/starter/images/SF.png);
+  background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(212, 209, 209, 0.1)),  url(/images/SF.png);
+  background-position: center;
+  background-repeat: no-repeat;
    background-repeat: no-repeat;
    height: 100%;
    
@@ -161,9 +166,9 @@ section h2 {
 .Subscribe-text{
   margin: 50px;
   text-align: center;
-  color:rgb(4, 66, 249);
+  color:rgb(255, 255, 255);
   font-weight: 700;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 3px;
 } 
 .form-section {
   display: flex;
