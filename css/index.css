@@ -95,7 +95,7 @@ section h2 {
 
 #body-1 {
   margin-top: 0;
-  background: url(/images/bg-img.png);
+  background: url(../images/bg-img.png);
   background-position: center;
 }
 #download {
@@ -147,7 +147,7 @@ section h2 {
 }
 
  .foot-1 {
-  background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(212, 209, 209, 0.1)),  url(/images/SF.png);
+  background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(212, 209, 209, 0.1)),  url(../images/SF.png);
   background-position: center;
   background-repeat: no-repeat;
    background-repeat: no-repeat;
