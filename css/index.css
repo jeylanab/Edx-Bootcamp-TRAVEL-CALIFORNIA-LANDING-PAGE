@@ -95,7 +95,7 @@ section h2 {
 
 #body-1 {
   margin-top: 0;
-  background: url(/images/bg-img.png);
+  background: url(./images/bg-img.png);
   background-position: center;
 }
 #download {
